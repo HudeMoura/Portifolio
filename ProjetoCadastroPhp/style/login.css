@@ -1,0 +1,137 @@
+/*Resetando as configurações*/
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+}
+
+ /* Configuração Geral de Pagina */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background:#ccc !important;
+}
+
+.main_content {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.content_fluid{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh auto;
+}
+
+/* Configuração Formulários */
+
+.box { 
+    width: 20%;
+    height: 50%;
+    border-radius:6px; 
+    background:#fff; 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;    
+}
+
+.title, .btnLogar{
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title h1{
+    font-size: 2rem;
+    padding: 1%;
+    color: #999;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lblogin {
+    color: #999;
+    padding: 6%;
+    width: 90%;
+}
+
+.inp-login {
+    width: 100%;
+    margin: 5px 3px;
+}
+
+input::placeholder{
+    color: #999 !important;
+}
+
+label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; }
+label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+
+span {
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:'open_sansregular';
+}
+
+input {
+    font-size:1em; 
+    color:#999; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s; 
+}
+
+.btn-success {
+    background-color:rgb(37,174,230) !important; 
+    width:78%;
+    margin-top: 7px; cursor:pointer; 
+    margin-bottom: 15px;
+    border-radius:4px;
+    border-color: rgb(37,174,230) !important;  
+    border:0;
+    color:#fff; 
+    font-size: 0.3rem;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.logarBtn:hover { 
+    background-color:#333 !important;
+    border-color: #333 !important; 
+}
+
+.formBox {
+    width: 60%;
+    height: 50%;
+    border-radius:6px; 
+    background:#fff; 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+
+#formCad {
+    width: 100%;
+}
+
+/* Configuração Navbar */
+
+
+

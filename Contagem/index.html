@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <div class="c1">
+                <div class="lbli">
+                    <label type="txt" name="txtinicio" id="txtinicio">Número Inicial: </label>
+                </div>
+                <div class="dadosInput">
+                    <input type="text" name="inicio" id="txti">
+                </div>
+            </div>
+            <div class="c1">
+                <div class="lbli">
+                    <label type="txt" name="txtfinal" id="txtfinal">Número Final: </label>
+                </div>
+                <div class="dadosInput">
+                    <input type="text" name="fim" id="txtf">
+                </div>
+            </div>
+            <div class="c1">
+                <div class="lbli">
+                    <label type="txt" name="txtpasso" id="txtpasso">Número de Passos: </label>
+                </div>
+                <div class="dadosInput"><input type="text" name="passo" id="txtp"></div>
+            </div>
+        </div>
+        <div class="btnContar">
+            <p><input type="button" id="btnVerificar" value="Vamos contar?" onclick="contar()"</p>  
+        </div>
+        <div id="res">
+            Preparando Contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Felipe Moura</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
